@@ -44,7 +44,7 @@ The schema has 9 tables: `students`, `admins`, `enrollments`, `colleges`, `progr
 ## Security
 
 - Passwords are hashed with PHP's `password_hash()` and checked with `password_verify()`
-- Database queries use prepared statements
+- Login, registration, and student records use prepared statements; other forms use escaped input
 
 ## How to Run Locally
 
